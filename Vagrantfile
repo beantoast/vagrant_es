@@ -1,6 +1,6 @@
 Vagrant.configure(2) do |c|
     ubuntu_version = "ubuntu/bionic64"
-    vm_memory_mb = "4096"
+    vm_memory_mb = "2048"
     shared_folder_host = "./"
     shared_folder_guest = "/home/vagrant/shared"
     ips = ["172.28.128.101", "172.28.128.102", "172.28.128.103", "172.28.128.104", "172.28.128.105"]
